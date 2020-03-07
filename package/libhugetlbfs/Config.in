@@ -1,0 +1,7 @@
+config BR2_PACKAGE_LIBHUGETLBFS
+	bool "libhugetlbfs"
+	select BR2_PACKAGE_PYTHON
+	help
+	  libhugetlbfs is test suite
+
+	  https://github.com/libhugetlbfs/libhugetlbfs.git
